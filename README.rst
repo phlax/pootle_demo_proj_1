@@ -40,6 +40,7 @@ GNU Style - named folders
 -------------------------
 
 .. code-block:: ini
+
    [default]
    translation_path = gnu_style_named/po-<filename>/<lang>.po
 
