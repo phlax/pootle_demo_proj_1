@@ -6,6 +6,8 @@ Pootle VCS config examples
 GNU Style
 ---------
 
+Configuration:
+
 .. code-block:: ini
 
    [default]
@@ -45,6 +47,8 @@ Examples:
 
 - GTK - https://git.gnome.org/browse/gtk+/tree/
 
+
+Configuration:
 
 .. code-block:: ini
 
@@ -96,10 +100,12 @@ Pootle layout::
 GNU Style - named files
 -----------------------
 
-Examples
-^^^^^^^^
+Examples:
 
 - Tuxpaint
+
+
+Configuration:
 
 .. code-block:: ini
 
