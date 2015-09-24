@@ -43,7 +43,7 @@ GNU Style - named folders
 
 Examples:
 
-  - GTK - https://git.gnome.org/browse/gtk+/tree/
+- GTK - https://git.gnome.org/browse/gtk+/tree/
 
 
 .. code-block:: ini
