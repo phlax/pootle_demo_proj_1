@@ -15,12 +15,17 @@ path must contain a ``<lang>``.
 The ``translation_path`` can 
 
 - ``<lang>``
+
    - matches any alphanumeric character or underscore ([\w])
    - used to select the ``Translation project``
+
 - ``<directory_path>``
+
    - matches any alphanumeric character or underscore or / ([\w\/])
    - used to set ``Translation project`` directory path.
+
 - ``<filename>``
+
    - matches any alphanumeric character or underscore ([\w])
    - used to set ``Store filename``.
 
