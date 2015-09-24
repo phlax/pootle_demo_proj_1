@@ -15,7 +15,7 @@ GNU Style
 Directory layout
 ^^^^^^^^^^^^^^^^
 
-Example::
+Layout::
 
    -- gnu_style
       |
@@ -29,16 +29,17 @@ Example::
 Pootle layout
 ^^^^^^^^^^^^^
 
+Layout::
 
--- $project
-   |
-   +-- en
-   |   |
-   |   +- en.po
-   |   
-   +-- zu
-       |
-       +- zu.po
+  -- $project
+     |
+     +-- en
+     |   |
+     |   +- en.po
+     |   
+     +-- zu
+         |
+	 +- zu.po
 
 
 
