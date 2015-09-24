@@ -154,6 +154,12 @@ Pootle layout::
 Non-GNU style
 -------------
 
+Examples:
+
+- KDE - https://websvn.kde.org/trunk/l10n-kde4/
+- Pootle - https://github.com/translate/pootle/tree/master/pootle/locale
+- LibreOffice - http://cgit.freedesktop.org/libreoffice/translations/tree/source
+
 
 Configuration:
 
