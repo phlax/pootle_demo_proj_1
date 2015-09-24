@@ -41,10 +41,9 @@ Pootle layout::
 GNU Style - named folders
 -------------------------
 
-Examples
-^^^^^^^^
+Examples:
 
-- GTK - https://git.gnome.org/browse/gtk+/tree/
+  - GTK - https://git.gnome.org/browse/gtk+/tree/
 
 
 .. code-block:: ini
