@@ -15,13 +15,14 @@ GNU Style
 Directory layout
 ^^^^^^^^^^^^^^^^
 
--- gnu_style
-   |
-   +-- po
-       |
-       +-- en.po
-       |
-       +-- zu.po
+::
+   -- gnu_style
+      |
+      +-- po
+          |
+	  +-- en.po
+	  |
+	  +-- zu.po
 
 
 Pootle layout
