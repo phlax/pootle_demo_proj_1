@@ -12,10 +12,7 @@ GNU Style
    translation_path = gnu_style/po/<lang>.po
 
 
-Directory layout
-^^^^^^^^^^^^^^^^
-
-Layout::
+Directory layout::
 
    -- gnu_style
       |
@@ -25,11 +22,7 @@ Layout::
 	  |
 	  +-- zu.po
 
-
-Pootle layout
-^^^^^^^^^^^^^
-
-Layout::
+Pootle layout::
 
   -- $project
      |
@@ -46,46 +39,41 @@ Layout::
 GNU Style - named folders
 -------------------------
 
-Config
-^^^^^^
-
 .. code-block:: ini
    [default]
    translation_path = gnu_style_named/po-<filename>/<lang>.po
 
 
-Directory layout
-^^^^^^^^^^^^^^^^
+Directory layout::
 
--- gnu_style_named
-   |
-   +-- po-example1
-   |   |
-   |   +-- en.po
-   |   |
-   |   +-- zu.po
-   |
-   +-- po-example2
-       |
-       +-- en.po
-       |
-       +-- zu.po
+  -- gnu_style_named
+     |
+     +-- po-example1
+     |   |
+     |   +-- en.po
+     |   |
+     |   +-- zu.po
+     |
+     +-- po-example2
+         |
+	 +-- en.po
+	 |
+	 +-- zu.po
 
 
-Pootle layout
-^^^^^^^^^^^^^
+Pootle layout::
 
--- $project
-   |
-   +-- en
-   |   |
-   |   +- example1.po
-   |   |
-   |   +- example2.po   
-   |   
-   +-- zu
-       |
-       +- example1.po
-       |
-       +- example2.po   
+  -- $project
+     |
+     +-- en
+     |   |
+     |   +- example1.po
+     |   |
+     |   +- example2.po   
+     |   
+     +-- zu
+         |
+	 +- example1.po
+	 |
+	 +- example2.po   
 
