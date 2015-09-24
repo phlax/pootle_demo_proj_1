@@ -35,13 +35,15 @@ Pootle layout::
 	 +- zu.po
 
 
+++++
+
 
 GNU Style - named folders
 -------------------------
 
 .. code-block:: ini
 
-   [default]
+   [subdir1]
    translation_path = gnu_style_named/po-<filename>/<lang>.po
 
 
@@ -68,13 +70,18 @@ Pootle layout::
      |
      +-- en
      |   |
-     |   +- example1.po
-     |   |
-     |   +- example2.po   
+     |   +-- subdir1
+     |       |
+     |       +- example1.po
+     |       |
+     |       +- example2.po   
      |   
      +-- zu
          |
-	 +- example1.po
-	 |
-	 +- example2.po   
+         +-- subdir1
+             |
+             +- example1.po
+             |
+             +- example2.po   
 
+++++
