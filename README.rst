@@ -15,7 +15,7 @@ GNU Style
 Directory layout
 ^^^^^^^^^^^^^^^^
 
-::
+Example::
 
    -- gnu_style
       |
