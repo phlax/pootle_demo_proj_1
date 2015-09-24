@@ -10,7 +10,7 @@ GNU Style
 
    [default]
    translation_path = gnu_style/po/<lang>.po
-```
+
 
 Directory layout
 ^^^^^^^^^^^^^^^^
