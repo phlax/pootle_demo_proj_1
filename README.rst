@@ -2,6 +2,29 @@ Pootle VCS config examples
 ==========================
 
 
+Configuration format
+--------------------
+
+Each section defines a ``directory_path`` in pootle translationprojects.
+
+The ``[default]`` section is used to match the root of translationprojects.
+
+At a minimum each section must have a ``translation_path`` option, and that
+path must contain a ``<lang>``.
+
+The ``translation_path`` can 
+
+- ``<lang>``
+  - matches any alphanumeric character or underscore ([\w])
+  - used to select the ``Translation project``
+- ``<directory_path>``
+  - matches any alphanumeric character or underscore or / ([\w\/])
+  - used to set ``Translation project`` directory path.
+- ``<filename>``
+  - matches any alphanumeric character or underscore ([\w])
+  - used to set ``Store filename``.
+
+
 
 GNU Style
 ---------
