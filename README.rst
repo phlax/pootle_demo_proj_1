@@ -16,6 +16,7 @@ Directory layout
 ^^^^^^^^^^^^^^^^
 
 ::
+
    -- gnu_style
       |
       +-- po
