@@ -149,3 +149,81 @@ Pootle layout::
              +- example2.po   
 
 ++++
+
+
+Non-GNU style
+-------------
+
+
+Configuration:
+
+.. code-block:: ini
+
+   [subdir3]
+   translation_path = non_gnu_style/<lang><directory_path>/<filename>.po
+
+
+Directory layout::
+
+  -- non_gnu_style
+     |
+     +-- locales
+         |
+         +-- en
+	 |   |
+	 |   +-- example1.po
+	 |   |
+	 |   +-- example2.po
+	 |   |
+	 |   +-- subsubdir
+	 |       |
+	 |       +-- example3.po
+	 |       |
+	 |       +-- example4.po
+	 |
+         +-- zu
+	     |
+	     +-- example1.po
+	     |
+	     +-- example2.po
+	     |   
+	     +-- subsubdir
+	         |
+	         +-- example3.po
+	         |
+	         +-- example4.po
+
+
+Pootle layout::
+
+  -- $project
+     |
+     +-- en
+     |   |
+     |   +-- subdir3
+     |       |
+     |       +- example1.po
+     |       |
+     |       +- example2.po   
+     |       |
+     |       +-- subsubdir
+     |           |
+     |           +-- example3.po
+     |           |
+     |           +-- example4.po
+     |   
+     +-- zu
+         |
+         +-- subdir3
+             |
+             +- example1.po
+             |
+             +- example2.po   
+             |
+             +-- subsubdir
+                 |
+                 +-- example3.po
+                 |
+                 +-- example4.po
+
+++++
